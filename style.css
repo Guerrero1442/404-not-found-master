@@ -28,7 +28,7 @@ header h4 {
 main {
     display: grid;
     grid-template-rows: 95% 5%;
-    row-gap: 10px;
+    row-gap: 20px;
     place-content: center;
     place-items: center;
 }
@@ -108,13 +108,5 @@ main > p {
     }
     main .info p {
         font-size: 1.8rem;
-    }
-}
-@media (max-width: 500px) {
-    main .container-info {
-        grid-template-rows: 400px 300px;
-        justify-content: center;
-        row-gap: 1em;
-        grid-template-columns: 100%;
     }
 }
